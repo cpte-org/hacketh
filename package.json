@@ -1,0 +1,22 @@
+{
+  "name": "hacketh-webapp",
+  "version": "1.0.0",
+  "description": "A web app for reporting compromised Ethereum addresses",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "ethereum",
+    "web app",
+    "github api",
+    "axios"
+  ],
+  "dependencies": {
+    "@ethersproject/address": "^5.7.0",
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
